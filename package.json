@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Discord bot made to transfer information from Ragemp server to discord",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
@@ -10,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.3.0",
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.5",
     "mysql2": "^3.11.3"
