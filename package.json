@@ -1,0 +1,16 @@
+{
+  "name": "discordragempbot",
+  "version": "1.0.0",
+  "description": "Discord bot made to transfer information from Ragemp server to discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "mysql2": "^3.11.3"
+  }
+}
