@@ -1,8 +1,10 @@
 // events/interactionCreate.js
+
+import { createEmbed } from '../functions/embed.js';
+
 export default {
     name: 'interactionCreate',
     async execute(interaction, client) {
-        // Логування взаємодій
         console.log(`Відбулася взаємодія: ${interaction.commandName} від ${interaction.user.tag}`);
 
         if (!interaction.isCommand()) return;
